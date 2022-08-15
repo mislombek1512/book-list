@@ -8,7 +8,7 @@ btn.addEventListener('click', (event) => {
     let year = document.getElementById('year');
 
     if ((title.value == '') || (author.value == '')) {
-        alert('Toldir');
+        alert('Fill empty places');
     } else {
         let tr = document.createElement('tr');
         let td1 = document.createElement('td');
